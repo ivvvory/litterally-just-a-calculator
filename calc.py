@@ -439,3 +439,8 @@ editmenu.add_command(label = "Paste")
 root.config(menu=menubar)
  
 root.mainloop()
+
+elif:
+    root = Tk()
+    root.geometry("300x200")
+    messagebox.showerror("showerror", "Error")
